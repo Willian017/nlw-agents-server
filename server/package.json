@@ -3,17 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {  
-    "start": "node --experimental-strip-types --no-warning src/server.ts",
-    "dev": "node --experimental-strip-types --no-warnings --watch src/server.ts"
+  "scripts": {
+    "start": "node --env-file .env --experimental-strip-types --no-warning src/server.ts",
+    "dev": "node --env-file .env --experimental-strip-types --no-warnings --watch src/server.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "devDependencies": {
+    "@biomejs/biome": "^2.0.6",
     "@types/node": "^24.0.12",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "ultracite": "5.0.32"
   },
   "dependencies": {
     "@fastify/cors": "^11.0.1",
