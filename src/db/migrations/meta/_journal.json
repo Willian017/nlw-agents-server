@@ -8,6 +8,27 @@
       "when": 1752079241519,
       "tag": "0000_lowly_zarda",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1752150786343,
+      "tag": "0001_chemical_silver_fox",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752155798460,
+      "tag": "0002_optimal_sue_storm",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1752155860380,
+      "tag": "0003_keen_dorian_gray",
+      "breakpoints": true
     }
   ]
 }
